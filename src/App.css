@@ -10,6 +10,10 @@
 
 #header-logo {
   color: white;
+  font-size: 30px;
+  background: -webkit-linear-gradient(#7b47ed, #10a9d7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .full-width-button {
