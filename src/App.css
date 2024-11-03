@@ -1,19 +1,41 @@
 .App {
   display: flex;
+  justify-content: space-around;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   margin: 0;
   background-color: black;
+  color: white;
+}
+
+/* .Main {
+  height: 100%;
+  justify-content: space-between;
+} */
+
+h1,
+h5 {
+  color: white;
+  font-size: 30px;
 }
 
 #header-logo {
   color: white;
   font-size: 30px;
-  background: -webkit-linear-gradient(#7b47ed, #10a9d7);
+  /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 12px #0fa, 0 0 82px #0fa,
+    0 0 92px #0fa; */
+  /* background: -webkit-linear-gradient(#7b47ed, #10a9d7);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+}
+
+#account {
+  color: rgb(116, 97, 97);
+  font-size: 60px;
+  /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,
+    0 0 92px #0fa; */
 }
 
 .full-width-button {
